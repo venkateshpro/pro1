@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.btns {
+    color: #ff8000;
+    background-color: transparent;
+    border-width: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  
+}
+</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="Cabbooking.Home.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d-flex justify-content-between">
+        <div>
+            <img src="https://res.cloudinary.com/dkzionr3v/image/upload/v1643985271/v_logo_png_ezwvk6.png" style="margin: 10px" class="navbar-image "  alt=""/>
+        </div>
+        <div style="margin-top: 20px">
+            <a href="index.login.html"><buuton class="btns" >Logout</buuton></a>
+        </div>
+    </div>
+ 
+    <div class=" bg-color-home" id="Homesection" style="margin-top: 10px">
+        <h1 class="vr-home-heading">Welcome To <span class="span-1">Cab Booking</span></h1>
+
+    </div>
+    <div class="section_b-home">
+        <div id="holder">
+
+            <div class="button">
+                <!--p class="btnText">REQUEST CAB</p-->
+                <form method="post" action="bookcab">
+                    <button class="btnText" type="submit" id="login-button">REQUEST CAB</button>
+                </form>
+                <div class="btnTwo">
+                    <p class="btnText2">GO!</p>
+                </div>
+            </div>
+
+            <div class="button">
+                <form method="post" action="BookingHistory">
+                    <button class="btnText" type="submit" id="login-button">HISTORY</button>
+                </form>
+                <div class="btnTwo">
+                    <p class="btnText2"><i class='fas fa-arrow-circle-right'></i></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="pt-5 pb-5 text-center bg-color-footer-section" id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="text-md-left">
+
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="follow-us-icon-container">
+                                <a href="https://nagaportfolio.ccbp.tech/"><i class="fab fa-google icon"></i></a>
+                            </div>
+                            <div class="follow-us-icon-container">
+                                <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter icon"></i></a>
+                            </div>
+                            <div class="follow-us-icon-container">
+                                <a href="https://www.instagram.com/venkatesh__venkii"><i class="fab fa-instagram icon"></i></a>
+                            </div>
+                            <div class="follow-us-icon-container">
+                                <a href="https://www.linkedin.com/in/naga-venkatesh-787446211/"><i class="fab fa-linkedin-in icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="address-footter-section">
+                            Teynampet 12th floor,Anna Salai,Chennai,Tamil Nadu,India.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class=" text-left ">
+                        <h1 class="contact-us-heading ">Contact Us</h1>
+                        <ul class="vr-fotter-section-list">
+                            <li class="mb-4">
+                                <i class="fas fa-envelope icon-1 m-2"></i>
+                                <span class="icon-text">vv@gmail.com</span>
+                            </li>
+                            <li class="mb-4">
+                                <i class="fas fa-phone-alt icon-1 m-2"></i>
+                                <span class="icon-text">7288842873</span>
+                            </li>
+                            <li class="mb-4">
+                                <i class="fab fa-skype icon-1 m-2"></i>
+                                <span class="icon-text">Venkatesh</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class=" text-left ">
+                        <h1 class="contact-us-heading ">Let Us Help You</h1>
+                        <ul class="vr-fotter-section-list">
+                            <li class="mb-4 icon-text">Costumer feedback </li>
+                            <li class="mb-4 icon-text ">Your Account</li>
+                            <li class="mb-4 icon-text">Return Center Help</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-line" />
+            <div>
+                <i class="far fa-copyright icon"></i>
+                <span class="icon-text">2022 by Venkatesh.For Project Presentation.</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

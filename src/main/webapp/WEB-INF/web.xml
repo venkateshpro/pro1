@@ -1,0 +1,172 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>login</servlet-name>
+  	<display-name>login</display-name>
+  	<description></description>
+  	<servlet-class>com.cabs.client.Login</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>CabBooking</servlet-name>
+  	<display-name>CabBooking</display-name>
+  	<description></description>
+  	<servlet-class>com.cabs.service.CabBooking</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>BookingHistory</display-name>
+  	<servlet-name>BookingHistory</servlet-name>
+  	<servlet-class>com.cabs.service.BookingHistory</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>CabRegistration</display-name>
+  	<servlet-name>CabRegistration</servlet-name>
+  	<servlet-class>com.cabs.service.CabRegistration</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>EmployeeRegistration</display-name>
+  	<servlet-name>EmployeeRegistration</servlet-name>
+  	<servlet-class>com.cabs.service.EmployeeRegistration</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ExceptionHandler</display-name>
+  	<servlet-name>ExceptionHandler</servlet-name>
+  	<servlet-class>com.cabs.exception.ExceptionHandler</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>accept</display-name>
+  	<servlet-name>accept</servlet-name>
+  	<servlet-class>com.cabs.service.accept</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Manager</display-name>
+  	<servlet-name>Manager</servlet-name>
+  	<servlet-class>com.cabs.client.Manager</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PendingRequest</display-name>
+  	<servlet-name>PendingRequest</servlet-name>
+  	<servlet-class>com.cabs.service.PendingRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Admin</display-name>
+  	<servlet-name>Admin</servlet-name>
+  	<servlet-class>com.cabs.client.Admin</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Employee</display-name>
+  	<servlet-name>Employee</servlet-name>
+  	<servlet-class>com.cabs.client.Employee</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Assign</display-name>
+  	<servlet-name>Assign</servlet-name>
+  	<servlet-class>com.cabs.service.Assign</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AssignCab</display-name>
+  	<servlet-name>AssignCab</servlet-name>
+  	<servlet-class>com.cabs.service.AssignCab</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>reject</display-name>
+  	<servlet-name>reject</servlet-name>
+  	<servlet-class>com.cabs.service.reject</servlet-class>
+  </servlet>
+  	
+  
+  <servlet-mapping>
+  	<servlet-name>login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CabBooking</servlet-name>
+  	<url-pattern>/CabBooking</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>PendingRequest</servlet-name>
+  	<url-pattern>/PendingRequest</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>BookingHistory</servlet-name>
+  	<url-pattern>/BookingHistory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CabRegistration</servlet-name>
+  	<url-pattern>/CabRegistration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>accept</servlet-name>
+  	<url-pattern>/accept</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EmployeeRegistration</servlet-name>
+  	<url-pattern>/EmployeeRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ExceptionHandler</servlet-name>
+  	<url-pattern>/ExceptionHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Manager</servlet-name>
+  	<url-pattern>/Manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Admin</servlet-name>
+  	<url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Employee</servlet-name>
+  	<url-pattern>/Employee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Assign</servlet-name>
+  	<url-pattern>/Assign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssignCab</servlet-name>
+  	<url-pattern>/AssignCab</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>reject</servlet-name>
+  	<url-pattern>/reject</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
