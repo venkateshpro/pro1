@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+.navbar-image {
+    height: 8vh;
+    margin: 20px;
+}
+
+
+
+.Cab-booking {
+    font-size: 12px;
+
+    color: grey;
+    font-weight: 500;
+    margin-left: 50px;
+
+}
+.btns {
+    color: #ff8000;
+    background-color: transparent;
+    border-width: 0px;
+    margin-right: 20px;
+   
+    font-weight: 700;
+    font-size: 20px;
+  
+}
+
+.bg-color-home {
+    background-color: #fc9803;
+    height: 400px;
+    background-size: cover;
+    padding: 20px;
+
+
+}
+
+.vr-home-heading {
+    color: white;
+    font-size: 60px;
+
+}
+
+.span-1 {
+    color: #000000;
+}
+
+.button-home {
+    background-color: #1a2137;
+    border-radius: 10px;
+    color: white;
+
+    font-family: Roboto;
+    height: 8vh;
+    width: 30vh;
+    border-width: 0px;
+}
+
+.section_b-home {
+    background: #fc9803;
+    font-family: Roboto;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+#holder {
+
+    background: white;
+    padding: 10px;
+
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-65%);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.button {
+    background: #3D4C53;
+    margin: 20px auto;
+
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+}
+
+.btnTwo {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-top: -80px;
+    padding-top: 2px;
+    background: #26A69A;
+    left: -250px;
+    transition: .3s;
+}
+
+.btnText {
+    margin-top: 12px;
+    border-width: 0px;
+
+    background-color: transparent;
+    color: white;
+    font-family: roboto;
+    transition: .3s;
+}
+
+.btnText2 {
+    margin-top: 55px;
+    margin-right: -130px;
+    color: #FFF;
+}
+
+.button:hover .btnTwo {
+    /*When hovering over .button change .btnTwo*/
+    left: -130px;
+}
+
+.button:hover .btnText {
+    /*When hovering over .button change .btnText*/
+    margin-left: 65px;
+}
+
+.button:active {
+    /*Clicked and held*/
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.bg-color-footer-section {
+    background-color: white;
+
+}
+
+.bottom-section-png {
+    height: 36px;
+    width: 56px;
+}
+
+.follow-us-icon-container {
+    background-color: grey;
+    width: 70px;
+    height: 70px;
+    border-radius: 55px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-1 {
+    color: orange;
+    font-size: 30px;
+}
+
+.address-footter-section {
+    margin-top: 20px;
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.contact-us-heading {
+    color: #5a7184;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.icon-text {
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.vr-fotter-section-list {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
